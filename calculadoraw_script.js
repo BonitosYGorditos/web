@@ -40,63 +40,72 @@ document.addEventListener('DOMContentLoaded', () => {
     const shadowhResistanceOutput = document.getElementById('shadow-resistance');
     const ghostResistanceOutput = document.getElementById('ghost-resistance');
     const undeadResistanceOutput = document.getElementById('undead-resistance');
- 
 
     form.addEventListener('change', calculateResistance);
 
-function calculateResistance() {
-    const elements = ["Fire", "Water", "Earth", "Neutral", "Holy", "Shadow", "Ghost", "Undead", "Wind", "Poison"];
-    const results = {
-        Fire: 0,
-        Water: 0,
-        Earth: 0,
-        Neutral: 0,
-        Holy: 0,
-        Shadow: 0,
-        Ghost: 0,
-        Undead: 0,
-        Wind: 0,
-        Poison: 0,
+    function calculateResistance() {
+        const elements = ["Fire", "Water", "Earth", "Neutral", "Holy", "Shadow", "Ghost", "Undead", "Wind", "Poison"];
+        const results = {
+            Fire: 0,
+            Water: 0,
+            Earth: 0,
+            Neutral: 0,
+            Holy: 0,
+            Shadow: 0,
+            Ghost: 0,
+            Undead: 0,
+            Wind: 0,
+            Poison: 0,
+        };
 
-    };
+        let allElementalHelmSelected = false;
+        let allElementalShieldSelected = false;
+        let twoHandedWeaponSelected = false;
 
-    let allElementalHelmSelected = false;
-    let allElementalShieldSelected = false;
+        // Gather resistances
+        document.querySelectorAll("select").forEach(select => {
+            const value = parseInt(select.value);
+            const resistance = select.options[select.selectedIndex].dataset.resistance;
 
-    // Gather resistances
-    document.querySelectorAll("select").forEach(select => {
-        const value = parseInt(select.value);
-        const resistance = select.options[select.selectedIndex].dataset.resistance;
-
-        if (resistance === "All") {
-            if (select.id === "headgear-1") {
-                allElementalHelmSelected = true;
+            if (resistance === "All") {
+                if (select.id === "headgear-1") {
+                    allElementalHelmSelected = true;
+                }
+                if (select.id === "shield") {
+                    allElementalShieldSelected = true;
+                }
             }
-            if (select.id === "shield") {
-                allElementalShieldSelected = true;
-            }
-        }
 
-        if (resistance === "All") {
+            if (select.id === "shield" && select.options[select.selectedIndex].dataset.type === "TwoHanded") {
+                twoHandedWeaponSelected = true;
+            }
+
+            if (resistance === "All") {
+                elements.forEach(element => {
+                    results[element] += value;
+                });
+            } else if (resistance) {
+                results[resistance] += value;
+            }
+        });
+
+        // Apply exception: reduce All-Elemental Helm resistance if All-Elemental Shield is selected
+        if (allElementalHelmSelected && allElementalShieldSelected) {
             elements.forEach(element => {
-                results[element] += value;
+                results[element] -= 10; // Reduce the helm's contribution by 10%
             });
-        } else if (resistance) {
-            results[resistance] += value;
         }
-    });
 
-    // Apply exception: reduce All-Elemental Helm resistance if All-Elemental Shield is selected
-    if (allElementalHelmSelected && allElementalShieldSelected) {
+        // Add 10% resistance to all elements if a two-handed weapon is selected
+        if (twoHandedWeaponSelected) {
+            elements.forEach(element => {
+                results[element] += 10;
+            });
+        }
+
+        // Display results
         elements.forEach(element => {
-            results[element] -= 10; // Reduce the helm's contribution by 10%
+            document.getElementById(`${element.toLowerCase()}-resistance`).textContent = results[element];
         });
     }
-
-    // Display results
-    elements.forEach(element => {
-        document.getElementById(`${element.toLowerCase()}-resistance`).textContent = results[element];
-    });
-}
-
 });
