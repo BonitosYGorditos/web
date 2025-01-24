@@ -1,4 +1,4 @@
-// Reducciones
+// Reducciones 
 const elementalTable = {
     Neutral: { Neutral: 0, Water: 0, Earth: 0, Fire: 0, Wind: 0, Poison: 0, Holy: 0, Shadow: 0, Ghost: 75, Undead: 0 },
     Water: { Neutral: 0, Water: 75, Earth: 0, Fire: 50, Wind: -75, Poison: 0, Holy: 0, Shadow: 0, Ghost: 0, Undead: 0 },
