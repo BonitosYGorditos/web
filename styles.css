@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.equipment-selection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+.equipment {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+#result {
+    margin-top: 20px;
+}
+.resultados {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+

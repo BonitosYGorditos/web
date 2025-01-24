@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemental Resistance Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="calculadoraw_script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <div class="menu">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Bonitos y Gorditos Tools</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="quest.html">Quests</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="calculadora.html">Calculadora</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+      <!--Nav-->
+
+      <!--Resultados-->
+    <div class="container">
+
+        <h1>Elemental Resistance Calculator</h1><br>
+        <h6>Nota: Las cartas estan acomodadas conforme a los elementos en la tabla (Neutral, Water, Earth,Fire.....)</h6>
+        <form id="elemental-form">
+            <div class="equipment-selection row">
+                <!--Upper-->
+                <div class="equipment col">
+                    <label for="headgear-1"><h5>Upper</h5></label>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1" name="headgear-1">
+                        <option value="0">None</option>
+                    </select>
+                    <br>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1-card" name="headgear-1-card">
+                        <option value="0">No Card</option>
+                        <option value="10" data-resistance="Neutral">BigFoot Card</option>
+                        <option value="10" data-resistance="Water">Leaf Cat Card</option>
+                        <option value="10" data-resistance="Earth">Dryad/Giearth Card</option>
+                        <option value="10" data-resistance="Fire">Leib Olmai Card</option>
+                        <option value="10" data-resistance="Wind">Giant Hornet Card</option>
+                        <option value="10" data-resistance="Poison">Ghoul Card</option>
+                        <option value="10" data-resistance="Shadow">Permeter Card</option>
+                        <option value="10" data-resistance="Ghost">Kraben Card</option>
+                        <option value="10" data-resistance="Undead">Deviruchi Card</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1-card" name="headgear-2-card">
+                        <option value="0">No Card</option>
+                        <option value="10" data-resistance="Neutral">BigFoot Card</option>
+                        <option value="10" data-resistance="Water">Leaf Cat Card</option>
+                        <option value="10" data-resistance="Earth">Dryad/Giearth Card</option>
+                        <option value="10" data-resistance="Fire">Leib Olmai Card</option>
+                        <option value="10" data-resistance="Wind">Giant Hornet Card</option>
+                        <option value="10" data-resistance="Poison">Ghoul Card</option>
+                        <option value="10" data-resistance="Shadow">Permeter Card</option>
+                        <option value="10" data-resistance="Ghost">Kraben Card</option>
+                        <option value="10" data-resistance="Undead">Deviruchi Card</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1-card" name="headgear-3-card">
+                        <option value="0">No Card</option>
+                        <option value="10" data-resistance="Neutral">BigFoot Card</option>
+                        <option value="10" data-resistance="Water">Leaf Cat Card</option>
+                        <option value="10" data-resistance="Earth">Dryad/Giearth Card</option>
+                        <option value="10" data-resistance="Fire">Leib Olmai Card</option>
+                        <option value="10" data-resistance="Wind">Giant Hornet Card</option>
+                        <option value="10" data-resistance="Poison">Ghoul Card</option>
+                        <option value="10" data-resistance="Shadow">Permeter Card</option>
+                        <option value="10" data-resistance="Ghost">Kraben Card</option>
+                        <option value="10" data-resistance="Undead">Deviruchi Card</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1-card" name="headgear-4-card">
+                        <option value="0">No Card</option>
+                        <option value="10" data-resistance="Neutral">BigFoot Card</option>
+                        <option value="10" data-resistance="Water">Leaf Cat Card</option>
+                        <option value="10" data-resistance="Earth">Dryad/Giearth Card</option>
+                        <option value="10" data-resistance="Fire">Leib Olmai Card</option>
+                        <option value="10" data-resistance="Wind">Giant Hornet Card</option>
+                        <option value="10" data-resistance="Poison">Ghoul Card</option>
+                        <option value="10" data-resistance="Shadow">Permeter Card</option>
+                        <option value="10" data-resistance="Ghost">Kraben Card</option>
+                        <option value="10" data-resistance="Undead">Deviruchi Card</option>
+                    </select>
+                </div>
+                <!--Mid-->
+                <div class="equipment col">
+                    <label for="headgear-1"><h5>Mid</h5></label>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1" name="headgear-1">
+                        <option value="0">None</option>
+                    </select>
+                    <br>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1-card" name="headgear-1-card">
+                        <option value="0">No Card</option>
+                        <option value="10" data-resistance="Neutral">BigFoot Card</option>
+                        <option value="10" data-resistance="Water">Leaf Cat Card</option>
+                        <option value="10" data-resistance="Earth">Dryad/Giearth Card</option>
+                        <option value="10" data-resistance="Fire">Leib Olmai Card</option>
+                        <option value="10" data-resistance="Wind">Giant Hornet Card</option>
+                        <option value="10" data-resistance="Poison">Ghoul Card</option>
+                        <option value="10" data-resistance="Shadow">Permeter Card</option>
+                        <option value="10" data-resistance="Ghost">Kraben Card</option>
+                        <option value="10" data-resistance="Undead">Deviruchi Card</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1-card" name="headgear-2-card">
+                        <option value="0">No Card</option>
+                        <option value="10" data-resistance="Neutral">BigFoot Card</option>
+                        <option value="10" data-resistance="Water">Leaf Cat Card</option>
+                        <option value="10" data-resistance="Earth">Dryad/Giearth Card</option>
+                        <option value="10" data-resistance="Fire">Leib Olmai Card</option>
+                        <option value="10" data-resistance="Wind">Giant Hornet Card</option>
+                        <option value="10" data-resistance="Poison">Ghoul Card</option>
+                        <option value="10" data-resistance="Shadow">Permeter Card</option>
+                        <option value="10" data-resistance="Ghost">Kraben Card</option>
+                        <option value="10" data-resistance="Undead">Deviruchi Card</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1-card" name="headgear-3-card">
+                        <option value="0">No Card</option>
+                        <option value="10" data-resistance="Neutral">BigFoot Card</option>
+                        <option value="10" data-resistance="Water">Leaf Cat Card</option>
+                        <option value="10" data-resistance="Earth">Dryad/Giearth Card</option>
+                        <option value="10" data-resistance="Fire">Leib Olmai Card</option>
+                        <option value="10" data-resistance="Wind">Giant Hornet Card</option>
+                        <option value="10" data-resistance="Poison">Ghoul Card</option>
+                        <option value="10" data-resistance="Shadow">Permeter Card</option>
+                        <option value="10" data-resistance="Ghost">Kraben Card</option>
+                        <option value="10" data-resistance="Undead">Deviruchi Card</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1-card" name="headgear-4-card">
+                        <option value="0">No Card</option>
+                        <option value="10" data-resistance="Neutral">BigFoot Card</option>
+                        <option value="10" data-resistance="Water">Leaf Cat Card</option>
+                        <option value="10" data-resistance="Earth">Dryad/Giearth Card</option>
+                        <option value="10" data-resistance="Fire">Leib Olmai Card</option>
+                        <option value="10" data-resistance="Wind">Giant Hornet Card</option>
+                        <option value="10" data-resistance="Poison">Ghoul Card</option>
+                        <option value="10" data-resistance="Shadow">Permeter Card</option>
+                        <option value="10" data-resistance="Ghost">Kraben Card</option>
+                        <option value="10" data-resistance="Undead">Deviruchi Card</option>
+                    </select>
+                </div>
+                <!--Low-->
+                <div class="equipment col">
+                    <label for="headgear-1"><h5>Lower</h5></label>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1" name="headgear-1">
+                        <option value="0">None</option>
+                        <option value="20" data-resistance="All">Mochi</option>
+                    </select>
+                    <br>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1-card" name="headgear-1-card">
+                        <option value="0">No Card</option>
+                        <option value="10" data-resistance="Neutral">BigFoot Card</option>
+                        <option value="10" data-resistance="Water">Leaf Cat Card</option>
+                        <option value="10" data-resistance="Earth">Dryad/Giearth Card</option>
+                        <option value="10" data-resistance="Fire">Leib Olmai Card</option>
+                        <option value="10" data-resistance="Wind">Giant Hornet Card</option>
+                        <option value="10" data-resistance="Poison">Ghoul Card</option>
+                        <option value="10" data-resistance="Shadow">Permeter Card</option>
+                        <option value="10" data-resistance="Ghost">Kraben Card</option>
+                        <option value="10" data-resistance="Undead">Deviruchi Card</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1-card" name="headgear-2-card">
+                        <option value="0">No Card</option>
+                        <option value="10" data-resistance="Neutral">BigFoot Card</option>
+                        <option value="10" data-resistance="Water">Leaf Cat Card</option>
+                        <option value="10" data-resistance="Earth">Dryad/Giearth Card</option>
+                        <option value="10" data-resistance="Fire">Leib Olmai Card</option>
+                        <option value="10" data-resistance="Wind">Giant Hornet Card</option>
+                        <option value="10" data-resistance="Poison">Ghoul Card</option>
+                        <option value="10" data-resistance="Shadow">Permeter Card</option>
+                        <option value="10" data-resistance="Ghost">Kraben Card</option>
+                        <option value="10" data-resistance="Undead">Deviruchi Card</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1-card" name="headgear-3-card">
+                        <option value="0">No Card</option>
+                        <option value="10" data-resistance="Neutral">BigFoot Card</option>
+                        <option value="10" data-resistance="Water">Leaf Cat Card</option>
+                        <option value="10" data-resistance="Earth">Dryad/Giearth Card</option>
+                        <option value="10" data-resistance="Fire">Leib Olmai Card</option>
+                        <option value="10" data-resistance="Wind">Giant Hornet Card</option>
+                        <option value="10" data-resistance="Poison">Ghoul Card</option>
+                        <option value="10" data-resistance="Shadow">Permeter Card</option>
+                        <option value="10" data-resistance="Ghost">Kraben Card</option>
+                        <option value="10" data-resistance="Undead">Deviruchi Card</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="headgear-1-card" name="headgear-4-card">
+                        <option value="0">No Card</option>
+                        <option value="10" data-resistance="Neutral">BigFoot Card</option>
+                        <option value="10" data-resistance="Water">Leaf Cat Card</option>
+                        <option value="10" data-resistance="Earth">Dryad/Giearth Card</option>
+                        <option value="10" data-resistance="Fire">Leib Olmai Card</option>
+                        <option value="10" data-resistance="Wind">Giant Hornet Card</option>
+                        <option value="10" data-resistance="Poison">Ghoul Card</option>
+                        <option value="10" data-resistance="Shadow">Permeter Card</option>
+                        <option value="10" data-resistance="Ghost">Kraben Card</option>
+                        <option value="10" data-resistance="Undead">Deviruchi Card</option>
+                    </select>
+                </div>
+                <!--Armor-->
+                <div class="equipment col">
+                    <label for="armor"><h5>Armor</h5></label>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="armor" name="armor">
+                        <option value="0">None</option>
+                        <option value="15" data-resistance="Neutral">Neutral Armor</option>
+                        <option value="15" data-resistance="Water">Water Armor</option>
+                        <option value="15" data-resistance="Earth">Earth Armor</option>
+                        <option value="15" data-resistance="Fire">Fire Armor</option>
+                        <option value="15" data-resistance="Wind">Wind Armor</option>
+                        <option value="15" data-resistance="Poison">Poison Armor</option>
+                        <option value="15" data-resistance="Shadow">Shadow Armor</option>
+                        <option value="15" data-resistance="Ghost">Ghost Armor</option>
+                        <option value="15" data-resistance="Undead">Undead Armor</option>
+                    </select>
+                    <br>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="selected-element" name="selected-element" onchange="updateTable()">
+                        <option value="0">No Card</option>
+                        <option value="Holy">Angeling Card</option>
+                        <option value="Undead">Evil Driud Card</option>
+                        <option value="Shadow">Bathory Card</option>
+                        <option value="Poison">Argiope Card</option>
+                        <option value="Wind">Dokebi Card</option>
+                        <option value="Ghost">Ghostring Card</option>
+                        <option value="Fire">Pasana Card</option>
+                        <option value="Earth">Sandman Card</option>
+                        <option value="Water">Swordfish Card</option>
+                        <option value="10" data-resistance="Neutral">Cornus Card</option>
+                        <option value="10" data-resistance="Water">Aqua Elemental Card</option>
+                        <option value="10" data-resistance="Earth">Tatacho Card</option>
+                        <option value="10" data-resistance="Fire">Draco Card</option>
+                        <option value="10" data-resistance="Wind">Steel Chonchon Card</option>
+                        <option value="10" data-resistance="Poison">Centipede Card</option>
+                        <option value="10" data-resistance="Shadow">Dark Shadow Card</option>
+                        <option value="10" data-resistance="Ghost">Noxious Card</option>
+                        <option value="10" data-resistance="Undead">Rybio Card</option> 
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="armor-card" name="armor-2-card">
+                    <option value="0">No Card</option>
+                    <option value="Holy">Angeling Card</option>
+                    <option value="Undead">Evil Driud Card</option>
+                    <option value="Shadow">Bathory Card</option>
+                    <option value="Poison">Argiope Card</option>
+                    <option value="Wind">Dokebi Card</option>
+                    <option value="Ghost">Ghostring Card</option>
+                    <option value="Fire">Pasana Card</option>
+                    <option value="Earth">Sandman Card</option>
+                    <option value="Water">Swordfish Card</option>
+                    <option value="10" data-resistance="Neutral">Cornus Card</option>
+                    <option value="10" data-resistance="Water">Aqua Elemental Card</option>
+                    <option value="10" data-resistance="Earth">Tatacho Card</option>
+                    <option value="10" data-resistance="Fire">Draco Card</option>
+                    <option value="10" data-resistance="Wind">Steel Chonchon Card</option>
+                    <option value="10" data-resistance="Poison">Centipede Card</option>
+                    <option value="10" data-resistance="Shadow">Dark Shadow Card</option>
+                    <option value="10" data-resistance="Ghost">Noxious Card</option>
+                    <option value="10" data-resistance="Undead">Rybio Card</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="armor-card" name="armor-3-card">
+                        <option value="0">No Card</option>
+                        <option value="Holy">Angeling Card</option>
+                        <option value="Undead">Evil Driud Card</option>
+                        <option value="Shadow">Bathory Card</option>
+                        <option value="Poison">Argiope Card</option>
+                        <option value="Wind">Dokebi Card</option>
+                        <option value="Ghost">Ghostring Card</option>
+                        <option value="Fire">Pasana Card</option>
+                        <option value="Earth">Sandman Card</option>
+                        <option value="Water">Swordfish Card</option>
+                        <option value="10" data-resistance="Neutral">Cornus Card</option>
+                        <option value="10" data-resistance="Water">Aqua Elemental Card</option>
+                        <option value="10" data-resistance="Earth">Tatacho Card</option>
+                        <option value="10" data-resistance="Fire">Draco Card</option>
+                        <option value="10" data-resistance="Wind">Steel Chonchon Card</option>
+                        <option value="10" data-resistance="Poison">Centipede Card</option>
+                        <option value="10" data-resistance="Shadow">Dark Shadow Card</option>
+                        <option value="10" data-resistance="Ghost">Noxious Card</option>
+                        <option value="10" data-resistance="Undead">Rybio Card</option>
+                        </select>
+                        <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="armor-card" name="armor-4-card">
+                            <option value="0">No Card</option>
+                            <option value="Holy">Angeling Card</option>
+                            <option value="Undead">Evil Driud Card</option>
+                            <option value="Shadow">Bathory Card</option>
+                            <option value="Poison">Argiope Card</option>
+                            <option value="Wind">Dokebi Card</option>
+                            <option value="Ghost">Ghostring Card</option>
+                            <option value="Fire">Pasana Card</option>
+                            <option value="Earth">Sandman Card</option>
+                            <option value="Water">Swordfish Card</option>
+                            <option value="10" data-resistance="Neutral">Cornus Card</option>
+                            <option value="10" data-resistance="Water">Aqua Elemental Card</option>
+                            <option value="10" data-resistance="Earth">Tatacho Card</option>
+                            <option value="10" data-resistance="Fire">Draco Card</option>
+                            <option value="10" data-resistance="Wind">Steel Chonchon Card</option>
+                            <option value="10" data-resistance="Poison">Centipede Card</option>
+                            <option value="10" data-resistance="Shadow">Dark Shadow Card</option>
+                            <option value="10" data-resistance="Ghost">Noxious Card</option>
+                            <option value="10" data-resistance="Undead">Rybio Card</option>
+                            </select>
+                </div>
+                <!--Escudo-->
+                <div class="equipment col">
+                    <label for="shield"><h5>Escudo</h5></label>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="shield" name="shield">
+                        <option value="0">None</option>
+                        <option value="20" data-resistance="All">All-Elemental Shield</option>
+                    </select>
+                    <br>
+
+                </div>
+                <!--Garmet-->
+                <div class="equipment col">
+                    <label for="garment"><h5>Garment</h5></label>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="garment" name="garment">
+                        <option value="0">None</option>
+                        <option value="30" data-resistance="Neutral">Neutral Manteau</option>
+                        <option value="30" data-resistance="Water">Water Manteau</option>
+                        <option value="30" data-resistance="Earth">Earth Manteau</option>
+                        <option value="30" data-resistance="Fire">Fire Manteau</option>
+                        <option value="30" data-resistance="Wind">Wind Manteau</option>
+                        <option value="30" data-resistance="Poison">Poison Manteau</option>
+                        <option value="30" data-resistance="Shadow">Shadow Manteau</option>
+                        <option value="30" data-resistance="Ghost">Ghost Manteau</option>
+                        <option value="30" data-resistance="Undead">Undead Manteau</option>
+                    </select>
+                    <br>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="garment-card" name="garment-1-card">
+                        <option value="0">No Card</option>
+                        <option value="30" data-resistance="Neutral">Raydric Card</option>
+                        <option value="30" data-resistance="Water">Marse Card</option>
+                        <option value="30" data-resistance="Earth">Hode Card</option>
+                        <option value="30" data-resistance="Fire">Jakk Card</option>
+                        <option value="30" data-resistance="Wind">Dustiness Card</option>
+                        <option value="30" data-resistance="Poison">Myst Card</option>
+                        <option value="30" data-resistance="Shadow">Isis Card</option>
+                        <option value="30" data-resistance="Ghost">Marionette Card</option>
+                        <option value="30" data-resistance="Undead">Orc Zombie Card</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="garment-card" name="garment-2-card">
+                        <option value="0">No Card</option>
+                        <option value="30" data-resistance="Neutral">Raydric Card</option>
+                        <option value="30" data-resistance="Water">Marse Card</option>
+                        <option value="30" data-resistance="Earth">Hode Card</option>
+                        <option value="30" data-resistance="Fire">Jakk Card</option>
+                        <option value="30" data-resistance="Wind">Dustiness Card</option>
+                        <option value="30" data-resistance="Poison">Myst Card</option>
+                        <option value="30" data-resistance="Shadow">Isis Card</option>
+                        <option value="30" data-resistance="Ghost">Marionette Card</option>
+                        <option value="30" data-resistance="Undead">Orc Zombie Card</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="garment-card" name="garment-3-card">
+                        <option value="0">No Card</option>
+                        <option value="30" data-resistance="Neutral">Raydric Card</option>
+                        <option value="30" data-resistance="Water">Marse Card</option>
+                        <option value="30" data-resistance="Earth">Hode Card</option>
+                        <option value="30" data-resistance="Fire">Jakk Card</option>
+                        <option value="30" data-resistance="Wind">Dustiness Card</option>
+                        <option value="30" data-resistance="Poison">Myst Card</option>
+                        <option value="30" data-resistance="Shadow">Isis Card</option>
+                        <option value="30" data-resistance="Ghost">Marionette Card</option>
+                        <option value="30" data-resistance="Undead">Orc Zombie Card</option>
+                    </select>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="garment-card" name="garment-4-card">
+                        <option value="0">No Card</option>
+                        <option value="30" data-resistance="Neutral">Raydric Card</option>
+                        <option value="30" data-resistance="Water">Marse Card</option>
+                        <option value="30" data-resistance="Earth">Hode Card</option>
+                        <option value="30" data-resistance="Fire">Jakk Card</option>
+                        <option value="30" data-resistance="Wind">Dustiness Card</option>
+                        <option value="30" data-resistance="Poison">Myst Card</option>
+                        <option value="30" data-resistance="Shadow">Isis Card</option>
+                        <option value="30" data-resistance="Ghost">Marionette Card</option>
+                        <option value="30" data-resistance="Undead">Orc Zombie Card</option>
+                    </select>
+                </div>
+                <!--Boots-->
+                <div class="equipment col">
+                    <label for="boots"><h5>Boots</h5></label>
+                    <select class="form-select form-select-lg mb-3" aria-label="Large select example" id="boots" name="boots">
+                        <option value="0">None</option>
+                        <option value="5" data-resistance="Neutral">Neutral Boots</option>
+                        <option value="5" data-resistance="Water">Water Boots</option>
+                        <option value="5" data-resistance="Earth">Earth Boots</option>
+                        <option value="5" data-resistance="Fire">Fire Boots</option>
+                        <option value="5" data-resistance="Wind">Wind Boots</option>
+                        <option value="5" data-resistance="Poison">Poison Boots</option>
+                        <option value="5" data-resistance="Shadow">Shadow Boots</option>
+                        <option value="5" data-resistance="Ghost">Ghost Boots</option>
+                        <option value="5" data-resistance="Undead">Undead Boots</option>
+                    </select>
+                    <br>
+                </div>
+            </div>
+        </form>
+        <div class="resultados">
+            <table id="elemental-table" class="table table-dark table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Neutral</th>
+                        <th>Water</th>
+                        <th>Earth</th>
+                        <th>Fire</th>
+                        <th>Wind</th>
+                        <th>Poison</th>
+                        <th>Holy</th>
+                        <th>Shadow</th>
+                        <th>Ghost</th>
+                        <th>Undead</th>
+                    </tr>  
+                    <tr>
+                        <th>Resistencias</th>
+                        <th><p>Neutral Resistance: <span id="neutral-resistance">0</span>%</p></th>
+                        <th><p>Water Resistance: <span id="water-resistance">0</span>%</p></th>
+                        <th><p>Earth Resistance: <span id="earth-resistance">0</span>%</p></th>
+                        <th><p>Fire Resistance: <span id="fire-resistance">0</span>%</p></th>
+                        <th><p>Wind Resistance: <span id="wind-resistance">0</span>%</p></th>
+                        <th><p>Poison Resistance: <span id="poison-resistance">0</span>%</p></th>
+                        <th><p>Holy Resistance: <span id="holy-resistance">0</span>%</p></th>
+                        <th><p>Shadow Resistance: <span id="shadow-resistance">0</span>%</p></th>
+                        <th><p>Ghost Resistance: <span id="ghost-resistance">0</span>%</p></th>
+                        <th><p>Undead Resistance: <span id="undead-resistance">0</span>%</p></th>
+                    </tr>
+                    <tr>
+                        <td>Reducciones</td>
+                        <td id="reduction-neutral">0</td>
+                        <td id="reduction-water">0</td>
+                        <td id="reduction-earth">0</td>
+                        <td id="reduction-fire">0</td>
+                        <td id="reduction-wind">0</td>
+                        <td id="reduction-poison">0</td>
+                        <td id="reduction-holy">0</td>
+                        <td id="reduction-shadow">0</td>
+                        <td id="reduction-ghost">0</td>
+                        <td id="reduction-undead">0</td>
+                    </tr>  
+                </thead>
+                <tbody>
+        </div>
+    </div>
+
+ 
+</body>
+</html>
