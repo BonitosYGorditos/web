@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         DirectoryItems: [
             { ID: 999, Name: 'Steel' }, { ID: 984, Name: 'Oridecon' }, { ID: 985, Name: 'Elunium' }, { ID: 998, Name: 'Iron' }, { ID: 7022, Name: 'Old Hit' }, { ID: 7024, Name: 'Bloody Edge' }, { ID: 7023, Name: 'Blade Lost in Darkness' },
             { ID: 995, Name: 'Mystic Frozen' }, { ID: 996, Name: 'Rough Wind' }, { ID: 1001, Name: 'Star Dust' }, { ID: 994, Name: 'Flame Heart' }, { ID: 7315, Name: 'Dark Crystal Fragment' }, { ID: 7047, Name: 'Alices Apron' },
-            { ID: 7321, Name: 'Crystal Fragment' }, { ID: 7263, Name: 'Cats eye' }, { ID: 7439, Name: 'Fragment of Despair' }, { ID: 1059, Name: 'Fabric' }, { ID: 7069, Name: 'Destroyed armor' }, { ID: 7210, Name: 'Armor Piece of Dullahan' },
+            { ID: 7321, Name: 'Crystal Fragment' },{ ID: 7105, Name: 'Piece of Shield' }, { ID: 7263, Name: 'Cats eye' }, { ID: 7439, Name: 'Fragment of Despair' }, { ID: 1059, Name: 'Fabric' }, { ID: 7069, Name: 'Destroyed armor' }, { ID: 7210, Name: 'Armor Piece of Dullahan' },
             { ID: 2517, Name: 'Valis Manteau' }, { ID: 7107, Name: 'Antelope Skin' }, { ID: 6020, Name: 'Fur' }, { ID: 7123, Name: 'Dragon Skin' }, { ID: 2405, Name: 'Boots' }, { ID: 7190, Name: 'Solid Husk' },
             { ID: 34503, Name: 'Drowned Wasabi' }, { ID: 34505, Name: 'Natural Wasabi' }, { ID: 34507, Name: 'Tornado Wasabi' }, { ID: 34510, Name: 'Fissure Wasabi' }, { ID: 34502, Name: 'Burned Wasabi' }, { ID: 34506, Name: 'Cursed Wasabi' }, { ID: 30508, Name: 'Toxic Wasabi' }, { ID: 34504, Name: 'Harrowing Wasabi' }, { ID: 34509, Name: 'Rotten Wasabi' }, { ID: 34511, Name: 'Heavenly Wasabi' },
 
@@ -220,70 +220,112 @@ document.addEventListener('DOMContentLoaded', () => {
         ],
         // Boots
 
-        WaterA: [
-            { ID: 7321, Name: 'Crystal Fragment', Cantidad: 100, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
-            { ID: 7069, Name: 'Destroyed armor', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 7210, Name: 'Armor Piece of Dullahan', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 985, Name: 'Elunium', Cantidad: 100, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 34503, Name: 'Drowned Wasabi', Cantidad: 3, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        WaterB: [
+            { ID: 2405, Name: 'Boots', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 998, Name: 'Iron', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 7190, Name: 'Solid Husk', Cantidad: 30, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 34503, Name: 'Drowned Wasabi', Cantidad: 2, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
         ],
-        WindA: [
-            { ID: 7321, Name: 'Crystal Fragment', Cantidad: 100, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
-            { ID: 7069, Name: 'Destroyed armor', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 7210, Name: 'Armor Piece of Dullahan', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 985, Name: 'Elunium', Cantidad: 100, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 34507, Name: 'Tornado Wasabi', Cantidad: 3, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        WindB: [
+            { ID: 2405, Name: 'Boots', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 998, Name: 'Iron', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 7190, Name: 'Solid Husk', Cantidad: 30, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 34507, Name: 'Tornado Wasabi', Cantidad: 2, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
         ],
-        EarthA: [
-            { ID: 7321, Name: 'Crystal Fragment', Cantidad: 100, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
-            { ID: 7069, Name: 'Destroyed armor', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 7210, Name: 'Armor Piece of Dullahan', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 985, Name: 'Elunium', Cantidad: 100, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 34510, Name: 'Fissure Wasabi', Cantidad: 3, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        EarthB: [
+            { ID: 2405, Name: 'Boots', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 998, Name: 'Iron', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 7190, Name: 'Solid Husk', Cantidad: 30, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 34510, Name: 'Fissure Wasabi', Cantidad: 2, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
         ],
-        FireA: [
-            { ID: 7321, Name: 'Crystal Fragment', Cantidad: 100, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
-            { ID: 7069, Name: 'Destroyed armor', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 7210, Name: 'Armor Piece of Dullahan', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 985, Name: 'Elunium', Cantidad: 100, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 34502, Name: 'Burned Wasabi', Cantidad: 3, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        FireB: [
+            { ID: 2405, Name: 'Boots', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 998, Name: 'Iron', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 7190, Name: 'Solid Husk', Cantidad: 30, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 34502, Name: 'Burned Wasabi', Cantidad: 2, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
         ],
-        ShadowA: [
-            { ID: 7321, Name: 'Crystal Fragment', Cantidad: 100, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
-            { ID: 7069, Name: 'Destroyed armor', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 7210, Name: 'Armor Piece of Dullahan', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 985, Name: 'Elunium', Cantidad: 100, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 34506, Name: 'Cursed Wasabi', Cantidad: 3, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        ShadowB: [
+            { ID: 2405, Name: 'Boots', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 998, Name: 'Iron', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 7190, Name: 'Solid Husk', Cantidad: 30, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 34506, Name: 'Cursed Wasabi', Cantidad: 2, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
         ],
-        GhostA: [
-            { ID: 7321, Name: 'Crystal Fragment', Cantidad: 100, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
-            { ID: 7069, Name: 'Destroyed armor', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 7210, Name: 'Armor Piece of Dullahan', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 985, Name: 'Elunium', Cantidad: 100, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 34504, Name: 'Harrowing Wasabi', Cantidad: 3, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        GhostB: [
+            { ID: 2405, Name: 'Boots', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 998, Name: 'Iron', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 7190, Name: 'Solid Husk', Cantidad: 30, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 34504, Name: 'Harrowing Wasabi', Cantidad: 2, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
         ],
-        NeutralA: [
-            { ID: 7321, Name: 'Crystal Fragment', Cantidad: 100, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
-            { ID: 7069, Name: 'Destroyed armor', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 7210, Name: 'Armor Piece of Dullahan', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 985, Name: 'Elunium', Cantidad: 100, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 34511, Name: 'Heavenly Wasabi', Cantidad: 3, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        NeutralB: [
+            { ID: 2405, Name: 'Boots', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 998, Name: 'Iron', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 7190, Name: 'Solid Husk', Cantidad: 30, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 34511, Name: 'Heavenly Wasabi', Cantidad: 2, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
         ],
-        UndeadA: [
-            { ID: 7321, Name: 'Crystal Fragment', Cantidad: 100, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
-            { ID: 7069, Name: 'Destroyed armor', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 7210, Name: 'Armor Piece of Dullahan', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 985, Name: 'Elunium', Cantidad: 100, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 34505, Name: 'Neutral Wasabi', Cantidad: 3, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        UndeadB: [
+            { ID: 2405, Name: 'Boots', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 998, Name: 'Iron', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 7190, Name: 'Solid Husk', Cantidad: 30, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 34505, Name: 'Neutral Wasabi', Cantidad: 2, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
         ],
-        VenomA: [
-            { ID: 7321, Name: 'Crystal Fragment', Cantidad: 100, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
-            { ID: 7069, Name: 'Destroyed armor', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 7210, Name: 'Armor Piece of Dullahan', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 985, Name: 'Elunium', Cantidad: 100, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
-            { ID: 34509, Name: 'Rotten Wasabi', Cantidad: 3, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        VenomB: [
+            { ID: 2405, Name: 'Boots', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 998, Name: 'Iron', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 7190, Name: 'Solid Husk', Cantidad: 30, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 34509, Name: 'Rotten Wasabi', Cantidad: 2, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
         ],
-        // Boots
+        // Shields
+        ShieldE: [
+            { ID: 7105, Name: 'Piece of Shield', Cantidad: 5, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        ],
+        ShieldWB: [
+            { ID: 7105, Name: 'Piece of Shield', Cantidad: 5, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        ],
+        // Accesories
+        Acc1: [
+            { ID: 4079, Name: 'Mantis Card', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 4091, Name: 'Kolobo Card', Cantidad: 1, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 720, Name: 'Aquamarine', Cantidad: 15, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 727, Name: 'Opal', Cantidad: 20, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 718, Name: 'Garnet', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        ],
+        Acc2: [
+            { ID: 4001, Name: 'Poring Card', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 4343, Name: 'Holden Card', Cantidad: 1, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 720, Name: 'Aquamarine', Cantidad: 15, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 727, Name: 'Opal', Cantidad: 20, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 718, Name: 'Garnet', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        ],
+        Acc3: [
+            { ID: 4027, Name: 'Kukre Card', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 4009, Name: 'Chonchon Card', Cantidad: 1, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 720, Name: 'Aquamarine', Cantidad: 15, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 727, Name: 'Opal', Cantidad: 20, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 718, Name: 'Garnet', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        ],
+        Acc4: [
+            { ID: 4002, Name: 'Fabre Card', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 4036, Name: 'Muka Card', Cantidad: 1, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 720, Name: 'Aquamarine', Cantidad: 15, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 727, Name: 'Opal', Cantidad: 20, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 718, Name: 'Garnet', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        ],
+        Acc5: [
+            { ID: 4064, Name: 'Zerom Card', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 4034, Name: 'Wormtail Card', Cantidad: 1, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 720, Name: 'Aquamarine', Cantidad: 15, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 727, Name: 'Opal', Cantidad: 20, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 718, Name: 'Garnet', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        ],
+        Acc6: [
+            { ID: 4409, Name: 'Agav Card', Cantidad: 1, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 4023, Name: 'Baby Desert Wolf Card', Cantidad: 1, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 720, Name: 'Aquamarine', Cantidad: 15, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 727, Name: 'Opal', Cantidad: 20, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
+            { ID: 718, Name: 'Garnet', Cantidad: 50, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
+        ],
+
+
     };
 
 
