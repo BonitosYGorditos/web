@@ -336,21 +336,21 @@ document.addEventListener("DOMContentLoaded", function () {
             ]
         },
         {
-            id: "shield1",
+            id: "undeadShield",
             name: "Elemental Shield",
             img1: "imgs/.jpeg",
             img2: "imgs/.jpeg",
             materials: [
-                {id: "7105", name: "Piece of Shield", quantity: "5", source: "ein_dun02" },
+                {id: "7105", name: "Piece of Shield", quantity: "5", source: "ein_dun02" }
             ]
         },
         {
-            id: "shield2",
+            id: "neutralShield",
             name: "Weapon Block Shield",
             img1: "imgs/.jpeg",
             img2: "imgs/.jpeg",
             materials: [
-                {id: "7105", name: "Piece of Shield", quantity: "5", source: "ein_dun02" },
+                {id: "7105", name: "Piece of Shield", quantity: "5", source: "ein_dun02" }
 
             ]
         },
