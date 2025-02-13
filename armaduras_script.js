@@ -110,6 +110,124 @@ document.addEventListener("DOMContentLoaded", function () {
                 {id: "34509", name: "Rotten Wasabi", quantity: "3", source: "Mine" }
             ]
         },
+        {
+            id: "neutralValis",
+            name: "Neutral Manteau",
+            img1: "imgs/.jpeg",
+            img2: "imgs/.jpeg",
+            materials: [
+                {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
+                {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
+                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
+                {id: "34503", name: "Natural Wasabi", quantity: "2", source: "ayo_dun02" }
+            ]
+        },
+        {
+            id: "waterValis",
+            name: "Water Manteau",
+            img1: "imgs/.jpeg",
+            img2: "imgs/.jpeg",
+            materials: [
+                {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
+                {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
+                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
+                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+            ]
+        },
+        {
+            id: "earthValis",
+            name: "Earth Manteau",
+            img1: "imgs/Undead1.jpeg",
+            img2: "imgs/Undead2.jpeg",
+            materials: [
+                {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
+                {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
+                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
+                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+            ]
+        },
+        {
+            id: "fireValis",
+            name: "Fire Manteau",
+            img1: "imgs/.jpeg",
+            img2: "imgs/.jpeg",
+            materials: [
+                {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
+                {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
+                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
+                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+            ]
+        },
+        {
+            id: "windValis",
+            name: "Wind Manteau",
+            img1: "imgs/.jpeg",
+            img2: "imgs/.jpeg",
+            materials: [
+                {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
+                {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
+                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
+                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+            ]
+        },
+        {
+            id: "poisonValis",
+            name: "Poison Manteau",
+            img1: "imgs/.jpeg",
+            img2: "imgs/.jpeg",
+            materials: [
+                {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
+                {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
+                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
+                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+            ]
+        },
+        {
+            id: "shadowValis",
+            name: "Shadow Manteau",
+            img1: "imgs/.jpeg",
+            img2: "imgs/.jpeg",
+            materials: [
+                {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
+                {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
+                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
+                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+            ]
+        },
+        {
+            id: "ghostValis",
+            name: "Ghost Manteau",
+            img1: "imgs/.jpeg",
+            img2: "imgs/.jpeg",
+            materials: [
+                {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
+                {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
+                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
+                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+            ]
+        },
+        {
+            id: "undeadValis",
+            name: "Undead Manteau",
+            img1: "imgs/.jpeg",
+            img2: "imgs/.jpeg",
+            materials: [
+                {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
+                {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
+                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
+                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+            ]
+        },
+        
 
     ];
 
