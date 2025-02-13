@@ -47,4 +47,8 @@
     grid-column-start: 3;
     grid-row-start: 3;
 }
-        
+.icono {
+    width: 24px;  /* Ajusta el tamaño del ícono */
+    height: 24px;
+    margin-right: 8px;  /* Espacio entre el icono y el texto */
+}
