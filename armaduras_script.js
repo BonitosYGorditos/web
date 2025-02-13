@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ]
         },
         {
-            id: "neutralShield2",
+            id: "waterShield",
             name: "Weapon Block Shield",
             img1: "imgs/.jpeg",
             img2: "imgs/.jpeg",
