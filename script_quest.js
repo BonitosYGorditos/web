@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { ID: 34507, Name: 'Tornado Wasabi', Cantidad: 5, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' }
         ],
         OverlandD: [
-            { ID: 1001, Name: 'Star Dust', Cantidad: 100, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
+            { ID: 996, Name: 'Star Dust', Cantidad: 100, Mapa1: 'Map X', Mapa2: 'Map Y', Mapa3: 'Map Z' },
             { ID: 999, Name: 'Steel', Cantidad: 70, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
             { ID: 984, Name: 'Oridecon', Cantidad: 70, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
             { ID: 985, Name: 'Elunium', Cantidad: 70, Mapa1: 'Map A', Mapa2: 'Map B', Mapa3: 'Map C' },
