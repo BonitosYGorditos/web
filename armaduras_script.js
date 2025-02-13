@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "Neutral Armor",
             img1: "imgs/Neutral.jpeg",
             materials: [
-                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "Mine" },
-                {id: "7069",name: "Destroyed armor", quantity: "50", source: "Beasts" },
-                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "Dungeon" },
-                {id: "985", name: "Elunium", quantity: "100", source: "Forest" },
-                {id: "34505", name: "Natural Wasabi", quantity: "3", source: "Crafting" }
+                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "ein_dun02" },
+                {id: "7069",name: "Destroyed armor", quantity: "50", source: "ayo_dun02" },
+                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "nif_fild01" },
+                {id: "985", name: "Elunium", quantity: "100", source: "beach_dun2" },
+                {id: "34505", name: "Natural Wasabi", quantity: "3", source: "ayo_dun02" }
             ]
         },
         {
@@ -17,10 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "Water Armor",
             img1: "imgs/Water.jpeg",
             materials: [
-                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "Mine" },
-                {id: "7069",name: "Destroyed armor", quantity: "50", source: "Beasts" },
-                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "Dungeon" },
-                {id: "985", name: "Elunium", quantity: "100", source: "Forest" },
+                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "ein_dun02" },
+                {id: "7069",name: "Destroyed armor", quantity: "50", source: "ayo_dun02" },
+                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "nif_fild01" },
+                {id: "985", name: "Elunium", quantity: "100", source: "beach_dun2" },
                 {id: "34503", name: "Drowned Wasabi", quantity: "3", source: "River" }
             ]
         },
@@ -29,10 +29,10 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "Earth Armor",
             img1: "imgs/Earth.jpeg",
             materials: [
-                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "Mine" },
-                {id: "7069",name: "Destroyed armor", quantity: "50", source: "Beasts" },
-                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "Dungeon" },
-                {id: "985", name: "Elunium", quantity: "100", source: "Forest" },
+                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "ein_dun02" },
+                {id: "7069",name: "Destroyed armor", quantity: "50", source: "ayo_dun02" },
+                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "nif_fild01" },
+                {id: "985", name: "Elunium", quantity: "100", source: "beach_dun2" },
                 {id: "34510", name: "Fissure Wasabi", quantity: "3", source: "Mine" }
             ]
         },
@@ -41,10 +41,10 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "Fire Armor",
             img1: "imgs/Fire.jpeg",
             materials: [
-                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "Mine" },
-                {id: "7069",name: "Destroyed armor", quantity: "50", source: "Beasts" },
-                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "Dungeon" },
-                {id: "985", name: "Elunium", quantity: "100", source: "Forest" },
+                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "ein_dun02" },
+                {id: "7069",name: "Destroyed armor", quantity: "50", source: "ayo_dun02" },
+                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "nif_fild01" },
+                {id: "985", name: "Elunium", quantity: "100", source: "beach_dun2" },
                 {id: "34502", name: "Burned Wasabi", quantity: "3", source: "Mine" }
             ]
         },
@@ -53,10 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "Wind Armor",
             img1: "imgs/Wind.jpeg",
             materials: [
-                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "Mine" },
-                {id: "7069",name: "Destroyed armor", quantity: "50", source: "Beasts" },
-                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "Dungeon" },
-                {id: "985", name: "Elunium", quantity: "100", source: "Forest" },
+                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "ein_dun02" },
+                {id: "7069",name: "Destroyed armor", quantity: "50", source: "ayo_dun02" },
+                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "nif_fild01" },
+                {id: "985", name: "Elunium", quantity: "100", source: "beach_dun2" },
                 {id: "34507", name: "Tornado Wasabi", quantity: "3", source: "Mine" }
             ]
         },
@@ -65,10 +65,10 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "Poison Armor",
             img1: "imgs/Poison.jpeg",
             materials: [
-                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "Mine" },
-                {id: "7069",name: "Destroyed armor", quantity: "50", source: "Beasts" },
-                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "Dungeon" },
-                {id: "985", name: "Elunium", quantity: "100", source: "Forest" },
+                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "ein_dun02" },
+                {id: "7069",name: "Destroyed armor", quantity: "50", source: "ayo_dun02" },
+                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "nif_fild01" },
+                {id: "985", name: "Elunium", quantity: "100", source: "beach_dun2" },
                 {id: "34508", name: "Toxic Wasabi", quantity: "3", source: "Mine" }
             ]
         },
@@ -77,10 +77,10 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "Shadow Armor",
             img1: "imgs/Shadow.jpeg",
             materials: [
-                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "Mine" },
-                {id: "7069",name: "Destroyed armor", quantity: "50", source: "Beasts" },
-                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "Dungeon" },
-                {id: "985", name: "Elunium", quantity: "100", source: "Forest" },
+                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "ein_dun02" },
+                {id: "7069",name: "Destroyed armor", quantity: "50", source: "ayo_dun02" },
+                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "nif_fild01" },
+                {id: "985", name: "Elunium", quantity: "100", source: "beach_dun2" },
                 {id: "34506", name: "Cursed Wasabi", quantity: "3", source: "Mine" }
             ]
         },
@@ -90,10 +90,10 @@ document.addEventListener("DOMContentLoaded", function () {
             img1: "imgs/Ghost1.jpeg",
             img2: "imgs/Ghost2.jpeg",
             materials: [
-                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "Mine" },
-                {id: "7069",name: "Destroyed armor", quantity: "50", source: "Beasts" },
-                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "Dungeon" },
-                {id: "985", name: "Elunium", quantity: "100", source: "Forest" },
+                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "ein_dun02" },
+                {id: "7069",name: "Destroyed armor", quantity: "50", source: "ayo_dun02" },
+                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "nif_fild01" },
+                {id: "985", name: "Elunium", quantity: "100", source: "beach_dun2" },
                 {id: "34504", name: "Harrowing Wasabi", quantity: "3", source: "Mine" }
             ]
         },
@@ -103,10 +103,10 @@ document.addEventListener("DOMContentLoaded", function () {
             img1: "imgs/Undead1.jpeg",
             img2: "imgs/Undead2.jpeg",
             materials: [
-                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "Mine" },
-                {id: "7069",name: "Destroyed armor", quantity: "50", source: "Beasts" },
-                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "Dungeon" },
-                {id: "985", name: "Elunium", quantity: "100", source: "Forest" },
+                {id: "7321", name: "Crystal Fragment", quantity: "100", source: "ein_dun02" },
+                {id: "7069",name: "Destroyed armor", quantity: "50", source: "ayo_dun02" },
+                {id: "7210", name: "Armor Piece of Dullahan", quantity: "50", source: "nif_fild01" },
+                {id: "985", name: "Elunium", quantity: "100", source: "beach_dun2" },
                 {id: "34509", name: "Rotten Wasabi", quantity: "3", source: "Mine" }
             ]
         },
