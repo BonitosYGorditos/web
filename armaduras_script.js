@@ -335,6 +335,25 @@ document.addEventListener("DOMContentLoaded", function () {
                 {id: "34503", name: "Natural Wasabi", quantity: "2", source: "beach_dun2" }
             ]
         },
+        {
+            id: "shield1",
+            name: "Elemental Shield",
+            img1: "imgs/.jpeg",
+            img2: "imgs/.jpeg",
+            materials: [
+                {id: "7105", name: "Piece of Shield", quantity: "5", source: "ein_dun02" },
+            ]
+        },
+        {
+            id: "shield2",
+            name: "Weapon Block Shield",
+            img1: "imgs/.jpeg",
+            img2: "imgs/.jpeg",
+            materials: [
+                {id: "7105", name: "Piece of Shield", quantity: "5", source: "ein_dun02" },
+
+            ]
+        },
         
 
     ];
