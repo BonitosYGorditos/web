@@ -336,7 +336,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ]
         },
         {
-            id: "undeadShield",
+            id: "Shield1",
             name: "Elemental Shield",
             img1: "imgs/.jpeg",
             img2: "imgs/.jpeg",
@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ]
         },
         {
-            id: "neutralShield",
+            id: "Shield2",
             name: "Weapon Block Shield",
             img1: "imgs/.jpeg",
             img2: "imgs/.jpeg",
