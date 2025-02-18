@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
                 {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
-                {id: "34503", name: "Natural Wasabi", quantity: "2", source: "ayo_dun02" }
+                {id: "34505", name: "Natural Wasabi", quantity: "2", source: "ayo_dun02" }
             ]
         },
         {
@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
                 {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
-                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+                {id: "34510", name: "Fissure Wasabi", quantity: "2", source: "ein_dun01" }
             ]
         },
         {
@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
                 {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
-                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+                {id: "34502", name: "Burned Wasabi", quantity: "2", source: "mag_dun02" }
             ]
         },
         {
@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
                 {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
-                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+                {id: "34507", name: "Tornado Wasabi", quantity: "2", source: "um_dun01" }
             ]
         },
         {
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
                 {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
-                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+                {id: "34508", name: "Toxic Wasabi", quantity: "2", source: "ma_dun01" }
             ]
         },
         {
@@ -198,7 +198,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
                 {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
-                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+                {id: "34506", name: "Cursed Wasabi", quantity: "2", source: "beach_dun2" }
             ]
         },
         {
@@ -211,7 +211,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
                 {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
-                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+                {id: "34504", name: "Harrowing  Wasabi", quantity: "2", source: "gon_dun03" }
             ]
         },
         {
@@ -224,7 +224,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
                 {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
-                {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
+                {id: "34509", name: "Rotten Wasabi", quantity: "2", source: "abbey01" }
             ]
         },
         {
