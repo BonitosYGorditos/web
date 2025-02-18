@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
             materials: [
                 {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
-                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
                 {id: "34503", name: "Natural Wasabi", quantity: "2", source: "ayo_dun02" }
             ]
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
             materials: [
                 {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
-                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
                 {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
             ]
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
             materials: [
                 {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
-                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
                 {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
             ]
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
             materials: [
                 {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
-                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
                 {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
             ]
@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function () {
             materials: [
                 {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
-                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
                 {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
             ]
@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
             materials: [
                 {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
-                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
                 {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
             ]
@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function () {
             materials: [
                 {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
-                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
                 {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
             ]
@@ -209,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function () {
             materials: [
                 {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
-                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
                 {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
             ]
@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
             materials: [
                 {id: "2517", name: "Valis Manteau", quantity: "1", source: "ein_dun02" },
                 {id: "6020",name: "Fur", quantity: "50", source: "ayo_dun02" },
-                {id: "7107", name: "Antelope Skin", quantity: "50", source: "nif_fild01" },
+                {id: "7107", name: "Antelope Skin", quantity: "100", source: "nif_fild01" },
                 {id: "7123", name: "Dragon Skin", quantity: "100", source: "beach_dun2" },
                 {id: "34503", name: "Drowned Wasabi", quantity: "2", source: "beach_dun2" }
             ]
